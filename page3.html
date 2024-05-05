@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Photo Gallery: The Philippines</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+        <style>
+            header {
+    background-color:#ffc7de;
+    opacity:0.9;
+    border:3px dotted whitesmoke;
+    text-align: center;
+    color: #fff9fb;
+    font-style: monospace;
+    letter-spacing: 5px;
+    font-size:140;
+    margin-bottom:25px;
+}
+body {
+    font-family:Garamond;
+    background-image: url(https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+footer {
+    background-color:#ffc7de;
+    opacity:0.9;
+    border:3px dotted whitesmoke;
+    color: #fff9fb;
+}
+.intro {
+     background-image:linear-gradient(to bottom, #E8B8C8,#feeef7);
+    width:500px;
+    padding:10px;
+    text-align: center;
+    color:#6c0640;
+    margin: auto;
+}
+.pictures, .details {
+    display:inline-flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.img {
+    width: 360px;
+    height: 360px;
+    margin-top:25px;
+}
+.desc {
+    width: 340px;
+    height: 340px;
+    margin-top:25px;
+    color:#552A5E;
+    opacity:0.4;
+    background-color:#e0c5e5;
+    padding:10px;
+    text-align:justify;
+}
+.details {
+    column-gap:20px;
+    row-gap:20px;
+}
+.pictures {
+    column-gap:20px;
+    row-gap:20px;
+}
+img {
+    object-fit:cover;
+}
+        </style>
+</head>
+<body>
+
+    <header>
+        <h1>Top 3 Destinations in the Philippines</h1>
+    </header>
+
+    <div class="intro">
+        <p>The Philippines, a southeast Asian country, is very popular for their tropical weather and al fresco ambiance. However, we all are way too familiar with the beaches already, how about Philippines' must-visit hills and mountains?</p>
+    </div>
+
+    <div class="pictures">
+
+        <div class="img">
+            <img src="https://images.pexels.com/photos/757444/pexels-photo-757444.jpeg?auto=compress&cs=tinysrgb&w=800" class="img" alt="">
+        </div>
+
+        <div class="img">
+             <img src="https://images.pexels.com/photos/6872835/pexels-photo-6872835.jpeg?auto=compress&cs=tinysrgb&w=800" class="img" alt="">
+        </div>
+
+        <div class="img">
+            <img src="https://images.pexels.com/photos/18894577/pexels-photo-18894577/free-photo-of-view-of-the-mayon-volcano.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="img" alt="">
+        </div>
+
+    </div>
+
+    <div class="details">
+
+        <div class="desc">
+            <h2>Chocolate Hills, Bohol</h2>
+            <p>As soon as the hot weather hits, the grass on these beautiful hills turn brown,resulting into "chocolate kisses."</p>
+        </div>
+
+
+        <div class="desc">
+            <h2>Banaue Rice Terraces</h2>
+            <p>The Banaue Rice Terraces are a National Cultural Treasure of the Philippines and are considered to be the 8th Natural Wonder of the World by many Filipinos.</p>
+        </div>
+
+        <div class="desc">
+            <h2>Mayon Volcano</h2>
+            <p>It is known for its perfectly conical shape whose natural beauty has inspired a number of legends and art.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Katrina Cassandra Antonio | 9-Emerald</p>
+        <ul>
+            <li><a href="https://whc.unesco.org/en/tentativelists/5024/#:~:text=The%20hills%20are%20located%20throughout,reference%20to%20a%20branded%20confection."target="_blank">Chcolate Hills</a></li>
+            <li><a href="http://www.banaueterraces.com/">Banaue</a></li>
+            <li><a href="https://whc.unesco.org/en/tentativelists/6007/#:~:text=Description,number%20of%20legends%20and%20art.">Mayon Volcano</a></li>
+        </ul>
+    </footer>
+
+    <center>
+        <button style="background-color: white; color: pink; padding: 15px 30px; border: none; cursor: pointer; font-family: Arial, sans-serif; font-size: 16px;" onclick="window.location.href='file:///Users/katrinacassandradgantonio/Desktop/ICT%204Q/mainpage.html#'; alert('Back to main page');">Return to Main Page</button>
+    </center>
+
+</body>
+</html>
